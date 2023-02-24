@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Bootstrap Website</title>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 ">
+        <div class="container">
+            <a href="#" class="navbar-brand"> { IVY } </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#explore" class="nav-link">Explore</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#store" class="nav-link">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+            </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="SUMMER Sale.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Fun Fare.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Ivy garden.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- heroes -->
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white"> Welcome to IVY </h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Explore the wonderful world of plants with IVY. IVY is a perfectly normal store selling perfectly normal plants for a perfectly normal price. Here at IVY, we encourage you to go green and appreciate the gifts of Nature. We also have perfectly
+                    ordinary instructors to help guide you on your journey to a green lifestyle. Come join us at IVY. </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-info btn-lg px-5 me-sm-3 fw-bold">JOIN</button>
+                    <!-- <button type="button" class="btn btn-outline-light btn-lg px-4">Sign-in</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cards  -->
+    <section class="bg-dark p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card">
+                        <img src="beyond.png" class="card-img-top " alt="... ">
+                        <div class="card-body ">
+
+                            <p class="card-text ">IVY has now opened its doors beyond.</p>
+                            <a href="# " class="btn btn-dark ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card">
+                        <img src="KIDS.png" class="card-img-top " alt="... ">
+                        <div class="card-body ">
+
+                            <p class="card-text "> IVY's new learning feature for kids with {IVY} kids.</p>
+                            <a href="# " class="btn btn-dark ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md ">
+                    <div class="card">
+                        <img src="news.png" class="card-img-top " alt="... ">
+                        <div class="card-body ">
+
+                            <p class="card-text ">Find environmental news with {IVY} news</p>
+                            <a href="# " class="btn btn-dark ">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="container">
+        <footer class="py-4">
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><i class="bi bi-twitter"></i></svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><i class="bi bi-instagram"></i></svg></a></li>
+                    <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><i class="bi bi-facebook"></i></svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+</body>
+
+</html>
+
+</html>
